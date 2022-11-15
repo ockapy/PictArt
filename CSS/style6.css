@@ -1,0 +1,255 @@
+body 
+{
+	background-image: url("../IMAGES/Logo/logo2.jpg");
+   
+	background-repeat: no-repeat;
+	background-position: right top;
+    background-attachment:fixed;
+    background-position: right;
+    background-color: white;
+    font-family: 'Megrim', cursive;
+}
+
+
+body:hover{
+    opacity: 1;
+}
+
+
+
+
+.titre
+{
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+p
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.avatarG
+{
+    border-radius: 50%;
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+.avatarM
+{
+    border-radius: 50%;
+    position:absolute;
+    top:200px;
+    right:20px;
+}
+
+.avatarY
+{
+    border-radius: 50%;
+    position:absolute;
+    top:380px;
+    right:20px;
+}
+
+#overlay 
+{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.sidebar 
+{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+  
+.sidebar a 
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #cfcfcf;
+    display: block;
+    font-weight: bold;
+}
+  
+.sidebar a:hover 
+{
+    color: #cfcfcf;
+}
+  
+.main 
+{
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+  
+@media screen and (max-height: 450px) 
+{
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+.insta
+{
+    position:absolute;
+    bottom: 40px;
+    left: 15px;
+    width: 60px;
+}
+
+.discord
+{
+    position:absolute;
+    bottom: 38px;
+    left: 80px;
+    width: 60px;
+}
+
+.bgimg 
+{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: 'Megrim', cursive;
+    font-size: 25px;
+    bottom: -400px;
+    font-weight: bold;
+}
+  
+.topleft 
+{
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+  
+.bottomleft 
+{
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+  
+.middle 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+hr
+{
+    margin: auto;
+    width: 40%;
+}
+
+
+
+
+
+
+.ml5 {
+    position: relative;
+    font-weight: bold;
+    font-size: 75px;
+    color: #cfcfcf;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 10px;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #cfcfcf;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .ampersand {
+    font-family: Baskerville, "EB Garamond", serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+  }
+  
+  .ml5 .letters {
+    display: block;
+    height: 50px;
+    opacity: 0;
+  }
+  
+
+
+.inutile{
+	text-align: center;
+}
+
+.titreconnexion{
+    text-align: center;
+    color: black;
+}
+
+.connexion{
+    box-align: right;
+}
+
+.logout
+{
+    border-radius: 50%;
+    position: absolute;
+    top:20px;
+    right:20px;
+    width: 100px;
+}
