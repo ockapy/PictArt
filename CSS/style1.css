@@ -11,12 +11,12 @@ html
     background-size: 40%;
     background-color: #0d0f0e;
     font-family: 'Megrim', cursive;
-    animation: background-size 2s linear ;
+    /*animation: background-size 2s linear ;
     animation-iteration-count:1 ;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
     
 }
-
+/*
 @keyframes background-size{
     0% {
         background-size: 10%;
@@ -26,12 +26,22 @@ html
     }
     
   
+}*/
+
+
+.FadeBody{
+    animation: fade 2s linear;
+    animation-iteration-count: 1;
 }
 
-
-
-
-
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 
 
